@@ -1,5 +1,5 @@
 let qrCode = new QRCode(document.querySelector('.qr-code'))
-qrCode.makeCode("nagarjuna06.github.com")
+qrCode.makeCode("https://github.com/nagarjuna06")
 let qrCodeContainer = document.querySelector(".qr-code-container")
 let input = document.querySelector(".input");
 var link = document.querySelector("a");
